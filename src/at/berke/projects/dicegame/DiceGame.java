@@ -27,8 +27,7 @@ public class DiceGame {
                     System.out.println("Es ist ein Unentschieden!");
                 } else {
                     System.out.println("Der Spieler hat gewonnen!");
-                    break;
-                }
+                } break;
             }
         }
     }
