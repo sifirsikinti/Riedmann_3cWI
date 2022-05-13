@@ -14,8 +14,7 @@ public class GuessWord {
     public static void guess() {
         Random random = new Random();
         int randomName = random.nextInt(5);
-
-        String letter = scanner.next();
+        int max_tries = 8;
 
         ArrayList<String> list = new ArrayList<String>();
 
@@ -26,7 +25,6 @@ public class GuessWord {
         list.add("Marc");
         list.add("Milian");
 
-
-
+        System.out.println(list.get(randomName));
     }
 }

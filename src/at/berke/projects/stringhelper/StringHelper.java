@@ -56,7 +56,15 @@ public class StringHelper {
     }
 
     public static void reverseString() {
-
+        Scanner scanner = new Scanner(System.in);
+        String t = scanner.nextLine();
+        char letter;
+        String reverse = "";
+        for (int i = 0; i < t.length(); i++) {
+            letter= t.charAt(i);
+            reverse = letter + reverse;
+        }
+        System.out.println(reverse);
     }
 
     public static void getAmountofWords() {
